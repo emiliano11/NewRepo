@@ -1,0 +1,67 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.background-container{
+    margin: 0px 0px 0px 5px auto;
+    background-image: url(img/infierno.jpeg);
+    border-radius: 0px 0px 0px 30px ;
+    background-size: auto;
+    
+
+}
+/* Nav styles*/
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+}
+
+.left-side{
+    display: flex;
+    margin-top: auto;
+}
+.nav-wrapper > .left-side > div{
+    margin-right: 25px;
+    font-size: 0.9em;
+    color: greenyellow;
+    text-transform: uppercase;
+}
+.nav-wrapper > .right-side > img{
+    vertical-align:auto;
+    margin-top: 19px;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom:0.5s;
+}
+
+.nav-link-wrapper a{
+    
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: greenyellow;
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
